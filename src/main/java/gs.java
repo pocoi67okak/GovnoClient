@@ -76,7 +76,7 @@ public class gs extends Component {
       if (this.aaC || this.aib.g()) {
          this.aib.f();
          float f3 = this.aib.e();
-         float f4 = this.aib.f();
+         float f4 = this.aib.getHH();
          float f5 = f3 * f2;
          if (!(f5 < 0.01F)) {
             if (f4 > 0.001F) {

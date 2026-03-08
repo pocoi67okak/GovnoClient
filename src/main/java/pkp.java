@@ -67,7 +67,7 @@ public class pkp extends Component {
       if (this.acE || this.avu.g()) {
          this.avu.f();
          float f4 = this.avu.e();
-         float f5 = this.avu.f();
+         float f5 = this.avu.getHH();
          if (!(f4 < 0.01F)) {
             if (f5 > 0.001F) {
                this.IX = this.a(f5);
