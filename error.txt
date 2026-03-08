@@ -1,68 +1,473 @@
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/xih.java:1: error: package a does not exist
-import a.Loader;
-        ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/Module.java:25: error: package net.fabricmc.fabric.api.client.rendering.v1 does not exist
-import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderContext;
-                                                  ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/zl.java:3: error: cannot find symbol
-import net.minecraft.client.gl.Defines;
-                              ^
-  symbol:   class Defines
-  location: package net.minecraft.client.gl
+> Task :compileJava
 /home/runner/work/GovnoClient/GovnoClient/src/main/java/zl.java:5: error: cannot find symbol
 import net.minecraft.client.gl.ShaderProgramKey;
                               ^
   symbol:   class ShaderProgramKey
   location: package net.minecraft.client.gl
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/zl.java:15: error: cannot find symbol
-   private static final ShaderProgramKey avz = ShaderUtil.a("white_rectangle", VertexFormats.POSITION_COLOR, Defines.EMPTY);
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderProgramKey.java:5: error: cannot find symbol
+public record ShaderProgramKey(Identifier id, VertexFormat vertexFormat, Defines defines) implements Supplier<ShaderProgram> {
+                                                                                                              ^
+  symbol: class ShaderProgram
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderProgramKey.java:5: error: cannot find symbol
+public record ShaderProgramKey(Identifier id, VertexFormat vertexFormat, Defines defines) implements Supplier<ShaderProgram> {
+                                                                         ^
+  symbol:   class Defines
+  location: class ShaderProgramKey
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderProgramKey.java:7: error: cannot find symbol
+    public ShaderProgram get() {
+           ^
+  symbol:   class ShaderProgram
+  location: class ShaderProgramKey
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltBlur.java:11: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltRectangle.java:11: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltRectangle.java:20: error: cannot find symbol
+   private static final ShaderProgramKey VQ = ShaderUtil.a("rectangle", VertexFormats.POSITION_COLOR, Defines.EMPTY);
                         ^
   symbol:   class ShaderProgramKey
-  location: class zl
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltBlur.java:8: error: cannot find symbol
-> Task :compileJava
-import net.minecraft.client.gl.Defines;
+  location: class BuiltRectangle
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLiquidGlass.java:11: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
                               ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method x() is already defined in record Rect
-record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
-            ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method y() is already defined in record Rect
-record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLiquidGlass.java:21: error: cannot find symbol
+   private static final ShaderProgramKey QE = ShaderUtil.a("liquidglass", VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltLiquidGlass
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltBlur.java:21: error: cannot find symbol
+   private static final ShaderProgramKey NY = ShaderUtil.a("blur", VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltBlur
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fp.java:84: error: method f() is already defined in class fp
+   public float f() {
+                ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dg.java:10: error: cannot find symbol
+import net.minecraft.item.ModelTransformationMode;
+                         ^
+  symbol:   class ModelTransformationMode
+  location: package net.minecraft.item
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltText.java:8: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltText.java:17: error: cannot find symbol
+   private static final ShaderProgramKey aoq = ShaderUtil.a("msdf_font", VertexFormats.POSITION_TEXTURE_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltText
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/font/MSDFFont.java:82: error: cannot find symbol
+   public static qu g() {
+                 ^
+  symbol:   class qu
+  location: class MSDFFont
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/font/Glyph.java:17: error: cannot find symbol
+   public Glyph(pqg pqg, float f, float f1) {
+                ^
+  symbol:   class pqg
+  location: class Glyph
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltWhiteRectangle.java:10: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltWhiteRectangle.java:19: error: cannot find symbol
+   private static final ShaderProgramKey zJ = ShaderUtil.a("white_rectangle", VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltWhiteRectangle
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLine2d.java:7: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltColorPicker.java:6: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltColorPicker.java:15: error: cannot find symbol
+   private static final ShaderProgramKey Dt = ShaderUtil.a("colorpicker", VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltColorPicker
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltColorPicker.java:18: error: cannot find symbol
+   private final vt BV;
+                 ^
+  symbol:   class vt
+  location: class BuiltColorPicker
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltColorPicker.java:24: error: cannot find symbol
+   public BuiltColorPicker(float f, float f1, vt vt, float f2, float f3, float f4, float f5) {
+                                              ^
+  symbol:   class vt
+  location: class BuiltColorPicker
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLine2d.java:16: error: cannot find symbol
+   private static final ShaderProgramKey Bn = ShaderUtil.a("line", VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltLine2d
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/config/Config.java:35: error: cannot find symbol
+   private Map<String, naz> abConfigs;
+                       ^
+  symbol:   class naz
+  location: class Config
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/config/Config.java:76: error: cannot find symbol
+   public native Map<String, naz> m();
+                             ^
+  symbol:   class naz
+  location: class Config
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/config/Config.java:102: error: cannot find symbol
+   public native void z(Map<String, naz> map);
+                                    ^
+  symbol:   class naz
+  location: class Config
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/s.java:4: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dk.java:116: error: method g() is already defined in class dk
+   public boolean g() {
+                  ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/it.java:116: error: method f() is already defined in class it
+   private boolean f() {
                    ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method width() is already defined in record Rect
-record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
-                          ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method height() is already defined in record Rect
-record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
-                                     ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/TranslationClient.java:3: error: package b does not exist
-import b.Native;
-        ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/TranslationClient.java:14: error: cannot find symbol
-@Native
- ^
-  symbol: class Native
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/TranslationResult.java:7: error: record component text is already defined in record TranslationResult
-   String text,
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/core/ConfigManager.java:10: error: cannot find symbol
+   private k configClient;
+           ^
+  symbol:   class k
+  location: class ConfigManager
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/core/ConfigManager.java:12: error: cannot find symbol
+   private List<so> availableConfigs = new ArrayList<so>();
+                ^
+  symbol:   class so
+  location: class ConfigManager
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/core/ConfigManager.java:71: error: cannot find symbol
+   public native List<so> y();
+                      ^
+  symbol:   class so
+  location: class ConfigManager
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/vb.java:128: error: method g() is already defined in class vb
+   public boolean g() {
+                  ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/vb.java:141: error: method h() is already defined in class vb
+   public void h() {
+               ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/TranslatorModule.java:63: error: cannot find symbol
+   public void f(String s, uy uy) {
+                           ^
+  symbol:   class uy
+  location: class TranslatorModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/TranslatorModule.java:82: error: cannot find symbol
+   public void g(String s, uy uy) {
+                           ^
+  symbol:   class uy
+  location: class TranslatorModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:1: error: package dev.mark.system.modules.settings does not exist
+import dev.mark.system.modules.settings.ISetting;
+                                       ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:2: error: package dev.mark.system.render.gui.common.base does not exist
+import dev.mark.system.render.gui.common.base.Component;
+                                             ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:3: error: package dev.mark.system.render.gui.components.settings does not exist
+import dev.mark.system.render.gui.components.settings.DropDownComp;
+                                                     ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltTexture.java:7: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltTexture.java:16: error: cannot find symbol
+   private static final ShaderProgramKey apr = ShaderUtil.a("texture", VertexFormats.POSITION_TEXTURE_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltTexture
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/efj.java:1: error: Rect is not public in data; cannot be accessed from outside package
+import data.Rect;
+           ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/efj.java:7: error: Rect is not public in data; cannot be accessed from outside package
+   private static final Stack<Rect> abc = new Stack<Rect>();
+                              ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/PostEffectProcessor.java:3: error: cannot find symbol
+import net.minecraft.client.util.Pool;
+                                ^
+  symbol:   class Pool
+  location: package net.minecraft.client.util
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/PostEffectProcessor.java:7: error: cannot find symbol
+    public void render(Framebuffer framebuffer, Pool pool) {}
+                                                ^
+  symbol:   class Pool
+  location: class PostEffectProcessor
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderLoader.java:12: error: cannot find symbol
+    public void preload(ResourceFactory factory, ShaderProgramKey[] keys) throws LoadException, IOException {}
+                                                 ^
+  symbol:   class ShaderProgramKey
+  location: class ShaderLoader
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderProgramKeys.java:7: error: cannot find symbol
+    public static final ShaderProgramKey POSITION_COLOR = new ShaderProgramKey(new Identifier("core/position_color"), VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class ShaderProgramKeys
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderProgramKeys.java:8: error: cannot find symbol
+    public static final ShaderProgramKey POSITION_TEX_COLOR = new ShaderProgramKey(new Identifier("core/position_tex_color"), VertexFormats.POSITION_TEXTURE_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class ShaderProgramKeys
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderProgramKeys.java:9: error: cannot find symbol
+    public static final ShaderProgramKey RENDERTYPE_GUI = new ShaderProgramKey(new Identifier("core/rendertype_gui"), VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class ShaderProgramKeys
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/minecraft/client/gl/ShaderProgramKeys.java:10: error: cannot find symbol
+    public static final ShaderProgramKey RENDERTYPE_GUI_OVERLAY = new ShaderProgramKey(new Identifier("core/rendertype_gui_overlay"), VertexFormats.POSITION_COLOR, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class ShaderProgramKeys
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/aeu.java:9: error: cannot find symbol
+import net.minecraft.client.gui.screen.multiplayer.ConnectScreen;
+                                                  ^
+  symbol:   class ConnectScreen
+  location: package net.minecraft.client.gui.screen.multiplayer
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/aeu.java:11: error: cannot find symbol
+import net.minecraft.client.network.CookieStorage;
+                                   ^
+  symbol:   class CookieStorage
+  location: package net.minecraft.client.network
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/aeu.java:14: error: package net.minecraft.client.session.report does not exist
+import net.minecraft.client.session.report.ReporterEnvironment;
+                                          ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/aeu.java:47: error: cannot find symbol
+      Screen screen, MinecraftClient minecraftclient, ServerAddress serveraddress, ServerInfo serverinfo, boolean flag, @Nullable CookieStorage cookiestorage
+                                                                                                                                  ^
+  symbol:   class CookieStorage
+  location: class aeu
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/aeu.java:75: error: cannot find symbol
+   private void connect(MinecraftClient minecraftclient, ServerAddress serveraddress, ServerInfo serverinfo, @Nullable CookieStorage cookiestorage) {
+                                                                                                                       ^
+  symbol:   class CookieStorage
+  location: class aeu
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/eoq.java:1: error: package net.minecraft.item.consume does not exist
+import net.minecraft.item.consume.UseAction;
+                                 ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLine3d.java:10: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLine3d.java:24: error: cannot find symbol
+   private static final ShaderProgramKey cE = ShaderUtil.a("line3d", VertexFormats.LINES, Defines.EMPTY);
+                        ^
+  symbol:   class ShaderProgramKey
+  location: class BuiltLine3d
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLine3d.java:188: error: cannot find symbol
+   private void c(MatrixStack matrixstack, Vec3d vec3d, rh rh) {
+                                                        ^
+  symbol:   class rh
+  location: class BuiltLine3d
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLine3d.java:256: error: cannot find symbol
+   private void d(Matrix4f matrix4f, Vec3d vec3d, rh rh) {
+                                                  ^
+  symbol:   class rh
+  location: class BuiltLine3d
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltLine3d.java:393: error: cannot find symbol
+   public xzs h() {
           ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/TranslationResult.java:8: error: record component detectedLanguage is already defined in record TranslationResult
-   String detectedLanguage,
-          ^
+  symbol:   class xzs
+  location: class BuiltLine3d
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/hook/CustomBossBarHud.java:22: error: cannot find symbol
+import net.minecraft.util.profiler.Profilers;
+                                  ^
+  symbol:   class Profilers
+  location: package net.minecraft.util.profiler
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/JumpParticlesModule.java:35: error: cannot find symbol
+   private final List<rn> jn = new ArrayList<rn>();
+                      ^
+  symbol:   class rn
+  location: class JumpParticlesModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/JumpParticlesModule.java:36: error: cannot find symbol
+   private final rpy apz = new rpy();
+                 ^
+  symbol:   class rpy
+  location: class JumpParticlesModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/ParticleModule.java:18: error: cannot find symbol
+   protected final List<go> aql = new ArrayList<go>(200);
+                        ^
+  symbol:   class go
+  location: class ParticleModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/ParticleModule.java:21: error: cannot find symbol
+   private rg aaD;
+           ^
+  symbol:   class rg
+  location: class ParticleModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/ParticleModule.java:170: error: cannot find symbol
+   protected int r(go go) {
+                   ^
+  symbol:   class go
+  location: class ParticleModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/ParticleModule.java:186: error: cannot find symbol
+   protected void t(BufferBuilder bufferbuilder, go go, float f, int i, int j) {
+                                                 ^
+  symbol:   class go
+  location: class ParticleModule
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/hde.java:1: error: cannot find symbol
+import net.minecraft.client.render.FrameGraphBuilder.Profiler;
+                                                    ^
+  symbol:   class Profiler
+  location: class FrameGraphBuilder
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/hde.java:4: error: cannot find symbol
+class hde implements Profiler {
+                     ^
+  symbol: class Profiler
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/CustomWorldRenderer.java:50: error: cannot find symbol
+import net.minecraft.util.profiler.Profilers;
+                                  ^
+  symbol:   class Profilers
+  location: package net.minecraft.util.profiler
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/CustomWorldRenderer.java:92: error: cannot find symbol
+   private final gk fabricContext = new gk();
+                 ^
+  symbol:   class gk
+  location: class CustomWorldRenderer
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:12: error: cannot find symbol
+import net.minecraft.client.render.entity.model.LoadedEntityModels;
+                                               ^
+  symbol:   class LoadedEntityModels
+  location: package net.minecraft.client.render.entity.model
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:16: error: package net.minecraft.client.render.entity.state does not exist
+import net.minecraft.client.render.entity.state.EntityRenderState;
+                                               ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:17: error: package net.minecraft.client.render.entity.state does not exist
+import net.minecraft.client.render.entity.state.ParrotEntityRenderState;
+                                               ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:18: error: package net.minecraft.client.render.entity.state does not exist
+import net.minecraft.client.render.entity.state.PlayerEntityRenderState;
+                                               ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:23: error: cannot find symbol
+public class ni extends FeatureRenderer<PlayerEntityRenderState, PlayerEntityModel> {
+                                        ^
+  symbol: class PlayerEntityRenderState
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:25: error: cannot find symbol
+   private final ParrotEntityRenderState parrotState = new ParrotEntityRenderState();
+                 ^
+  symbol:   class ParrotEntityRenderState
+  location: class ni
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:27: error: cannot find symbol
+   public ni(FeatureRendererContext<PlayerEntityRenderState, PlayerEntityModel> featurerenderercontext, LoadedEntityModels loadedentitymodels) {
+                                    ^
+  symbol:   class PlayerEntityRenderState
+  location: class ni
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:27: error: cannot find symbol
+   public ni(FeatureRendererContext<PlayerEntityRenderState, PlayerEntityModel> featurerenderercontext, LoadedEntityModels loadedentitymodels) {
+                                                                                                        ^
+  symbol:   class LoadedEntityModels
+  location: class ni
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:34: error: cannot find symbol
+      MatrixStack matrixstack, VertexConsumerProvider vertexconsumerprovider, int i, PlayerEntityRenderState playerentityrenderstate, float f, float f1
+                                                                                     ^
+  symbol:   class PlayerEntityRenderState
+  location: class ni
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:70: error: cannot find symbol
+      PlayerEntityRenderState playerentityrenderstate,
+      ^
+  symbol:   class PlayerEntityRenderState
+  location: class ni
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/ni.java:91: error: cannot find symbol
+   public void render(MatrixStack matrixstack, VertexConsumerProvider vertexconsumerprovider, int i, EntityRenderState entityrenderstate, float f, float f1) {
+                                                                                                     ^
+  symbol:   class EntityRenderState
+  location: class ni
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fz.java:6: error: cannot find symbol
+import net.minecraft.client.font.BakedGlyph;
+                                ^
+  symbol:   class BakedGlyph
+  location: package net.minecraft.client.font
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fz.java:7: error: cannot find symbol
+import net.minecraft.client.font.EmptyBakedGlyph;
+                                ^
+  symbol:   class EmptyBakedGlyph
+  location: package net.minecraft.client.font
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fz.java:10: error: package net.minecraft.client.font.BakedGlyph does not exist
+import net.minecraft.client.font.BakedGlyph.DrawnGlyph;
+                                           ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fz.java:11: error: package net.minecraft.client.font.BakedGlyph does not exist
+import net.minecraft.client.font.BakedGlyph.Rectangle;
+                                           ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fz.java:35: error: cannot find symbol
+   private final List<DrawnGlyph> glyphs;
+                      ^
+  symbol:   class DrawnGlyph
+  location: class fz
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fz.java:37: error: cannot find symbol
+   private List<Rectangle> rectangles;
+                ^
+  symbol:   class Rectangle
+  location: class fz
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/fz.java:41: error: cannot find symbol
+   private void addRectangle(Rectangle rectangle) {
+                             ^
+  symbol:   class Rectangle
+  location: class fz
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:12: error: package net.minecraft.client.render.entity.equipment does not exist
+import net.minecraft.client.render.entity.equipment.EquipmentModel;
+                                                   ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:13: error: package net.minecraft.client.render.entity.equipment does not exist
+import net.minecraft.client.render.entity.equipment.EquipmentModelLoader;
+                                                   ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:14: error: package net.minecraft.client.render.entity.equipment.EquipmentModel does not exist
+import net.minecraft.client.render.entity.equipment.EquipmentModel.LayerType;
+                                                                  ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:19: error: cannot find symbol
+import net.minecraft.client.render.entity.model.LoadedEntityModels;
+                                               ^
+  symbol:   class LoadedEntityModels
+  location: package net.minecraft.client.render.entity.model
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:20: error: cannot find symbol
+import net.minecraft.client.render.entity.model.PlayerCapeModel;
+                                               ^
+  symbol:   class PlayerCapeModel
+  location: package net.minecraft.client.render.entity.model
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:22: error: package net.minecraft.client.render.entity.state does not exist
+import net.minecraft.client.render.entity.state.EntityRenderState;
+                                               ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:23: error: package net.minecraft.client.render.entity.state does not exist
+import net.minecraft.client.render.entity.state.PlayerEntityRenderState;
+                                               ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:25: error: package net.minecraft.component does not exist
+import net.minecraft.component.DataComponentTypes;
+                              ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/tpi.java:26: error: package net.minecraft.component.type does not exist
+import net.minecraft.component.type.EquippableComponent;
+                                   ^
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
 100 errors
-only showing the first 100 errors, of 2456 total; use -Xmaxerrs if you would like to see more
+only showing the first 100 errors, of 1934 total; use -Xmaxerrs if you would like to see more
+
 > Task :compileJava FAILED
-1 actionable task: 1 executed
+
 FAILURE: Build failed with an exception.
+
 * What went wrong:
 Execution failed for task ':compileJava'.
 > Compilation failed; see the compiler error output for details.
+
 * Try:
 > Run with --info option to get more log output.
 > Run with --scan to get full insights.
-BUILD FAILED in 1m 6s
+
+BUILD FAILED in 1m 21s
+1 actionable task: 1 executed
 Error: Process completed with exit code 1.

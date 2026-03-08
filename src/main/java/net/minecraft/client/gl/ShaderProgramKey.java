@@ -1,3 +1,5 @@
+package net.minecraft.client.gl;
+
 import net.minecraft.client.render.VertexFormat;
 import net.minecraft.util.Identifier;
 import java.util.function.Supplier;

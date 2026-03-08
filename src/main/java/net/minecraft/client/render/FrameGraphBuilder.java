@@ -5,4 +5,11 @@ public class FrameGraphBuilder {
     public Object createResourceHandle(String name, Object factory) { return null; }
     public RenderPass createPass(String name) { return new RenderPass(); }
     public void run(Object allocator, Object executor) {}
+
+    public interface Profiler {
+        void start(String name);
+        void push(String name);
+        void pop();
+        void end();
+    }
 }

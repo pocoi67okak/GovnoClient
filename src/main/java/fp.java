@@ -81,7 +81,7 @@ public class fp extends vjv {
       return this.CG;
    }
 
-   public float f() {
+   public float getHH() {
       return this.HH;
    }
 }

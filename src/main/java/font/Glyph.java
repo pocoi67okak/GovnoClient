@@ -1,5 +1,7 @@
 package font;
 
+import font.pqg;
+
 import net.minecraft.client.render.VertexConsumer;
 import org.joml.Matrix4f;
 

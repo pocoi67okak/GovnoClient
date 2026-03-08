@@ -1,5 +1,7 @@
 package module;
 
+import module.uy;
+
 import data.TranslationResult;
 import enums.Category;
 import java.lang.Character.UnicodeBlock;
