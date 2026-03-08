@@ -1,6 +1,6 @@
 package data;
 
-record Rect(int x, int y, int width, int height) {
+public record Rect(int x, int y, int width, int height) {
    private Rect(int i, int j, int k, int l) {
       this.x = i;
       this.y = j;

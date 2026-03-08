@@ -106,14 +106,14 @@ public class it extends vjv {
    }
 
    private void e() {
-      if (this.pQ != null && this.f()) {
+      if (this.pQ != null && this.isReady()) {
          this.pQ = this.g(this.lU, this.azT);
          this.lw = this.azT;
          this.ye = this.lU;
       }
    }
 
-   private boolean f() {
+   private boolean isReady() {
       return Math.abs(this.azT - this.lw) > 0.001F || Math.abs(this.lU - this.ye) > 1.0E-4F;
    }
 

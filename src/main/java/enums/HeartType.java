@@ -7,7 +7,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.Identifier;
 
 @Environment(EnvType.CLIENT)
-enum HeartType {
+public enum HeartType {
    CONTAINER(
       new Identifier("hud/heart/container"),
       new Identifier("hud/heart/container_blinking"),

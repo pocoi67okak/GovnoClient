@@ -96,12 +96,12 @@ public class vb extends vjv {
          }
 
          if (f >= 1.0F) {
-            this.g();
+            this.completeState();
          }
       }
    }
 
-   private void g() {
+   private void completeState() {
       boolean flag = this.rt == acf.adG;
       this.rt = acf.xu;
       this.jv = 0.0F;

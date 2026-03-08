@@ -55,11 +55,11 @@ public class dk extends vjv {
    public void f() {
       float f = this.b();
       this.cd += f;
-      this.g();
+      this.updateState();
       this.h(f);
    }
 
-   private void g() {
+   private void updateState() {
       float f;
       float f1;
       switch (this.awv) {

@@ -1,4 +1,3 @@
-import lombok.Generated;
 import org.lwjgl.glfw.GLFW;
 
 public enum vk {
@@ -17,12 +16,10 @@ public enum vk {
       return Enum.<vk>valueOf(vk.class, s);
    }
 
-   @Generated
    public long b() {
       return this.ayg;
    }
 
-   @Generated
    private vk(long j) {
       this.ayg = j;
    }
