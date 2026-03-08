@@ -1,8 +1,6 @@
 package font;
 
-import font.qu;
 
-import qu;
 
 import java.util.Map;
 import net.minecraft.client.render.VertexConsumer;

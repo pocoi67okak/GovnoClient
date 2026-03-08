@@ -1,6 +1,6 @@
 package config;
 
-import config.naz;
+
 
 import a.Loader;
 import com.google.gson.annotations.SerializedName;
