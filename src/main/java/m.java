@@ -38,9 +38,9 @@ public class m extends Component {
       this.eo.a(matrix4f, f, f1, f2);
       ProtestModule protestmodule = ClientMain.getInstance().getModuleManager().<ProtestModule>getModule(ProtestModule.class);
       if (protestmodule != null && protestmodule.isEnabled()) {
-         this.H = "SйstemPlayer";
+         this.H = "Govno Client";
       } else {
-         this.H = this.Sm.getGameProfile().getName();
+         this.H = "Govno Client";
       }
 
       BuiltText builttext = TextCache.a(this.aiL, "Q", 27.0F, Bz);
