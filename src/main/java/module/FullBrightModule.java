@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
@@ -35,3 +35,4 @@ public class FullBrightModule extends Module {
       }
    }
 }
+

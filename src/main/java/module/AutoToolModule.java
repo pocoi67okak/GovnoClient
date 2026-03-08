@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.hit.BlockHitResult;
@@ -96,3 +96,4 @@ public class AutoToolModule extends Module {
       }
    }
 }
+

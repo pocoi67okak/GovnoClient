@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.List;
 import setting.ActionSetting;
@@ -243,3 +243,4 @@ public class CustomThemeModule extends Module {
       return this.atn;
    }
 }
+

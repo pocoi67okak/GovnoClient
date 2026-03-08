@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
@@ -203,3 +203,4 @@ public abstract class ParticleModule extends Module {
       }
    }
 }
+

@@ -1,7 +1,7 @@
 package module;
 
-import enum.Category;
-import enum.PacketDirection;
+import enums.Category;
+import enums.PacketDirection;
 import event.PacketEvent;
 import event.UseItemEvent;
 import java.util.Queue;
@@ -176,3 +176,4 @@ public abstract class PacketModule extends Module {
       this.ayc.h();
    }
 }
+

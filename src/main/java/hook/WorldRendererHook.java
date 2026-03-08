@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.WorldRenderer;
 import render.CustomWorldRenderer;
@@ -86,3 +86,4 @@ public class WorldRendererHook extends Hook {
    public void unHook() {
    }
 }
+

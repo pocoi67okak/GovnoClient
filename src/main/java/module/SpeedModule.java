@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.util.Arrays;
 import java.util.Collections;
 import net.minecraft.entity.Entity;
@@ -99,3 +99,4 @@ public class SpeedModule extends Module {
       return this.getClientPlayer().input.movementForward != 0.0 || this.getClientPlayer().input.movementSideways != 0.0;
    }
 }
+

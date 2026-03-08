@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.gui.hud.ChatHud;
 import net.minecraft.client.render.Camera;
 import render.CustomChatHud;
@@ -22,3 +22,4 @@ public class ChatHudHook extends Hook {
       new UnsafeFieldAccessor<Camera>(this.mc.gameRenderer, GameRendererHook.class, Camera.class).check(new Camera());
    }
 }
+

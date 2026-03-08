@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.gui.hud.BossBarHud;
 import render.CustomInGameHud;
 import util.UnsafeFieldAccessor;
@@ -19,3 +19,4 @@ public class BossBarHudHook extends Hook {
    public void unHook() {
    }
 }
+

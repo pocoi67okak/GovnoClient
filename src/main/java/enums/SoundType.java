@@ -1,4 +1,4 @@
-package enum;
+package enums;
 
 public enum SoundType {
    GUI_OPEN("GUI Open", "4.wav"),
@@ -36,3 +36,4 @@ public enum SoundType {
       };
    }
 }
+

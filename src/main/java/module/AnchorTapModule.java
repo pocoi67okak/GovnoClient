@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
 import net.minecraft.util.Hand;
@@ -123,3 +123,4 @@ public class AnchorTapModule extends Module {
       this.c();
    }
 }
+

@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import java.util.function.Function;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
@@ -30,3 +30,4 @@ public class TextRendererHook extends Hook {
       new UnsafeFieldAccessor<TextRenderer>(this.mc, MinecraftClient.class, TextRenderer.class).check(this.originalTextRenderer);
    }
 }
+

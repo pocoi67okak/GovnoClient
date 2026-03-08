@@ -1,7 +1,7 @@
 package module;
 
 import core.ClientMain;
-import enum.Category;
+import enums.Category;
 
 public class SprintModule extends Module {
    private boolean sprinting = false;
@@ -54,3 +54,4 @@ public class SprintModule extends Module {
       this.sprinting = flag;
    }
 }
+

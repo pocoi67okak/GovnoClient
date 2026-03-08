@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.vehicle.BoatEntity;
 import net.minecraft.util.Hand;
@@ -213,3 +213,4 @@ public class BoatFlyModule extends Module {
       this.JJ = false;
    }
 }
+

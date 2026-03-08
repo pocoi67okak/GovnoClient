@@ -4,7 +4,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Ordering;
 import com.mojang.blaze3d.systems.RenderSystem;
 import core.ClientMain;
-import enum.HeartType;
+import enums.HeartType;
 import hook.CustomBossBarHud;
 import hud.HudManager;
 import java.util.ArrayList;
@@ -1490,3 +1490,4 @@ public class CustomInGameHud extends InGameHud {
       return this.getChatHud();
    }
 }
+

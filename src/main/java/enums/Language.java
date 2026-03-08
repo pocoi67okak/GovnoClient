@@ -1,4 +1,4 @@
-package enum;
+package enums;
 
 public enum Language {
    RUSSIAN("Русский", "RU"),
@@ -30,3 +30,4 @@ public enum Language {
       return new Language[]{RUSSIAN, ENGLISH};
    }
 }
+

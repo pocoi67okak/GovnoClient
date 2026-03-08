@@ -1,6 +1,6 @@
 package hud;
 
-import enum.ConstraintSide;
+import enums.ConstraintSide;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -105,3 +105,4 @@ public class HudLayoutManager {
       return hudcomponent.getTotalHeight();
    }
 }
+

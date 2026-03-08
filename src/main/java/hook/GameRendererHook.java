@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.GameRenderer;
 import render.CustomGameRenderer;
@@ -25,3 +25,4 @@ public class GameRendererHook extends Hook {
    public void unHook() {
    }
 }
+

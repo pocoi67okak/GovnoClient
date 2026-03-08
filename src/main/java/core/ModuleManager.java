@@ -1,7 +1,7 @@
 package core;
 
 import config.Config;
-import enum.Category;
+import enums.Category;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -196,3 +196,4 @@ public class ModuleManager {
       return this.allowedModuleIds;
    }
 }
+

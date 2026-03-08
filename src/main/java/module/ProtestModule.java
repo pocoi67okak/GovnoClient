@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.BooleanSetting;
 
 public class ProtestModule extends Module {
@@ -65,3 +65,4 @@ public class ProtestModule extends Module {
       return this.hidePasswordSetting;
    }
 }
+

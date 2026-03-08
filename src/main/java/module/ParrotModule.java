@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.util.Arrays;
 import java.util.Collections;
 import setting.ListSetting;
@@ -38,3 +38,4 @@ public class ParrotModule extends Module {
       return this.typeSetting;
    }
 }
+

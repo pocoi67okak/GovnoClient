@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import event.RotationEvent;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.entity.player.PlayerEntity;
@@ -74,3 +74,4 @@ public class JumpResetModule extends Module {
       }
    }
 }
+

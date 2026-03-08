@@ -1,7 +1,7 @@
 package module;
 
 import com.mojang.authlib.GameProfile;
-import enum.Category;
+import enums.Category;
 import java.util.UUID;
 import net.minecraft.client.network.OtherClientPlayerEntity;
 import net.minecraft.entity.EquipmentSlot;
@@ -50,3 +50,4 @@ public class FakePlayerModule extends Module {
       this.setEnabled(false);
    }
 }
+

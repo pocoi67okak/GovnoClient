@@ -1,7 +1,7 @@
 package module;
 
 import core.ClientMain;
-import enum.Category;
+import enums.Category;
 import event.RotationEvent;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -579,3 +579,4 @@ public class TriggerBotModule extends Module {
       return this.isEnabled() && this.sprintControlSetting.getValue() && this.abC;
    }
 }
+

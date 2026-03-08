@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.entity.player.PlayerEntity;
 import setting.SliderSetting;
 
@@ -59,3 +59,4 @@ public class LagRangeModule extends PacketModule {
       this.aaZ = 0L;
    }
 }
+

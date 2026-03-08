@@ -1,5 +1,5 @@
 import core.Localization;
-import enum.Language;
+import enums.Language;
 import gui.Component;
 import java.io.PrintStream;
 import org.joml.Matrix4f;
@@ -91,3 +91,4 @@ public class jec extends Component {
       }
    }
 }
+

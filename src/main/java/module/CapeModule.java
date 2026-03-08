@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 
 public class CapeModule extends Module {
    public CapeModule() {
@@ -15,3 +15,4 @@ public class CapeModule extends Module {
    public void onDisable() {
    }
 }
+

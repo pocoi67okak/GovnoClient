@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.SliderSetting;
 
 public class AspectRatioModule extends Module {
@@ -23,3 +23,4 @@ public class AspectRatioModule extends Module {
       return stretchStrengthSetting;
    }
 }
+

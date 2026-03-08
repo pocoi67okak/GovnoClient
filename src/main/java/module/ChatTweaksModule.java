@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.BooleanSetting;
 
 public class ChatTweaksModule extends Module {
@@ -38,3 +38,4 @@ public class ChatTweaksModule extends Module {
       return this.groupDuplicatesSetting;
    }
 }
+

@@ -1,8 +1,8 @@
 package module;
 
 import core.SoundManager;
-import enum.Category;
-import enum.SoundType;
+import enums.Category;
+import enums.SoundType;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -148,3 +148,4 @@ public class SoundsModule extends Module {
       return this.Rb;
    }
 }
+

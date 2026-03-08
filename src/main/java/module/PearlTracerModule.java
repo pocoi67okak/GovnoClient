@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.HashSet;
 import java.util.List;
@@ -304,3 +304,4 @@ public class PearlTracerModule extends Module {
       }
    }
 }
+

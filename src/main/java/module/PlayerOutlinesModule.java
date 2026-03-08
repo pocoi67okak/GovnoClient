@@ -1,7 +1,7 @@
 package module;
 
 import core.ClientMain;
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -241,3 +241,4 @@ public class PlayerOutlinesModule extends Module {
       return this.outlineSharpnessSetting.getFloatValue();
    }
 }
+

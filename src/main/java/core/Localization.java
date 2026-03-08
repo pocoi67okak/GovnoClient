@@ -1,6 +1,6 @@
 package core;
 
-import enum.Language;
+import enums.Language;
 import java.io.PrintStream;
 import java.util.List;
 import java.util.Map;
@@ -73,3 +73,4 @@ public class Localization {
       return this.Hz;
    }
 }
+

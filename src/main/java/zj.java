@@ -4,7 +4,7 @@ import core.ClientMain;
 import core.ConfigManager;
 import core.FriendManager;
 import core.SoundManager;
-import enum.SoundType;
+import enums.SoundType;
 import font.MSDFFont;
 import gui.InteractiveComponent;
 import java.awt.Color;
@@ -694,3 +694,4 @@ public class zj extends Screen {
       return this.axm;
    }
 }
+

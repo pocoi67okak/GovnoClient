@@ -1,4 +1,4 @@
-package enum;
+package enums;
 
 public enum HookType {
    Init,
@@ -10,3 +10,4 @@ public enum HookType {
       return new HookType[]{Init, FirstWorld, EveryWorld};
    }
 }
+

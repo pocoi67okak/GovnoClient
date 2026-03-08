@@ -5,8 +5,8 @@ import core.ClientMain;
 import core.ConfigManager;
 import core.Localization;
 import core.SoundManager;
-import enum.Category;
-import enum.SoundType;
+import enums.Category;
+import enums.SoundType;
 import event.ChatMessageEvent;
 import event.MouseMoveEvent;
 import event.MovementEvent;
@@ -423,3 +423,4 @@ public abstract class Module extends ModuleBase {
       return this.groupSetting;
    }
 }
+

@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import javax.imageio.ImageIO;
@@ -115,3 +115,4 @@ public class GameRendererInitHook extends Hook {
    public void unHook() {
    }
 }
+

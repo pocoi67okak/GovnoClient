@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -207,3 +207,4 @@ public class ItemScrollerModule extends Module {
       return this.getClient().mouse.getY() * this.getClient().getWindow().getScaledHeight() / this.getClient().getWindow().getHeight();
    }
 }
+

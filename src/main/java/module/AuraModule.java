@@ -5,7 +5,7 @@ import aim.CakeWorldAimMode;
 import aim.FTAimMode;
 import aim.HVHAimMode;
 import data.Angle;
-import enum.Category;
+import enums.Category;
 import event.PacketEvent;
 import event.RotationEvent;
 import java.util.ArrayList;
@@ -629,3 +629,4 @@ public class AuraModule extends Module {
       return this.isEnabled() && this.dB.g();
    }
 }
+

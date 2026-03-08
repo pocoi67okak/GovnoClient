@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import setting.ActionKeySetting;
@@ -56,3 +56,4 @@ public class WindChargeModule extends Module {
       return -1;
    }
 }
+

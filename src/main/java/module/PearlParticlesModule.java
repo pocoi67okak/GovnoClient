@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.HashMap;
 import java.util.Map;
@@ -107,3 +107,4 @@ public class PearlParticlesModule extends ParticleModule {
       }
    }
 }
+

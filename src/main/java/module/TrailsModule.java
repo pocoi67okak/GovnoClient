@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import net.minecraft.util.math.Vec3d;
 import setting.BooleanSetting;
@@ -111,3 +111,4 @@ public class TrailsModule extends ParticleModule {
       }
    }
 }
+

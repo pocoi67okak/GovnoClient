@@ -2,7 +2,7 @@ package hud;
 
 import core.ClientMain;
 import core.ModuleManager;
-import enum.Category;
+import enums.Category;
 import java.util.HashSet;
 import java.util.List;
 import module.HudModule;
@@ -126,3 +126,4 @@ public class KeyBindsHudComponent extends ListHudComponent<ed> {
       this.d(matrix4f, f, f1, (ed)listentry, f2, f3);
    }
 }
+

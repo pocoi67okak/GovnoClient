@@ -3,7 +3,7 @@ package module;
 import config.Config;
 import core.ClientMain;
 import data.Position;
-import enum.Category;
+import enums.Category;
 import hud.HudManager;
 import java.util.HashMap;
 import setting.ActionSetting;
@@ -137,3 +137,4 @@ public class HudModule extends Module {
       return this.saturationSetting;
    }
 }
+

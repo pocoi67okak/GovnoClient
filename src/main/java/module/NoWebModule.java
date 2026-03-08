@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
@@ -81,3 +81,4 @@ public class NoWebModule extends Module {
       return false;
    }
 }
+

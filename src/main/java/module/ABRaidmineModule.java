@@ -2,7 +2,7 @@ package module;
 
 import command.ABCommand;
 import data.ABItem;
-import enum.Category;
+import enums.Category;
 import event.ChatMessageEvent;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -396,3 +396,4 @@ public class ABRaidmineModule extends Module {
       return this.kZ;
    }
 }
+

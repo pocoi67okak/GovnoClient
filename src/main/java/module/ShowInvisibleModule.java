@@ -1,7 +1,7 @@
 package module;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import enum.Category;
+import enums.Category;
 import java.util.List;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderContext;
 import net.minecraft.client.MinecraftClient;
@@ -83,3 +83,4 @@ public class ShowInvisibleModule extends Module {
       }
    }
 }
+

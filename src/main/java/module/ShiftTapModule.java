@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.Hand;
@@ -57,3 +57,4 @@ public class ShiftTapModule extends Module {
    public void onDisable() {
    }
 }
+

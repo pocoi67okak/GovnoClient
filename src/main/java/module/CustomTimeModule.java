@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.client.world.ClientWorld;
 import setting.SliderSetting;
 import util.UnsafeFieldAccessor;
@@ -47,3 +47,4 @@ public class CustomTimeModule extends Module {
       }
    }
 }
+

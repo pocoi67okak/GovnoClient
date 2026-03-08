@@ -2,7 +2,7 @@ package module;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import command.WaypointCommand;
-import enum.Category;
+import enums.Category;
 import event.ChatMessageEvent;
 import font.MSDFFont;
 import hook.GameRendererInitHook;
@@ -317,3 +317,4 @@ public class WaypointsModule extends Module {
       return this.gi;
    }
 }
+

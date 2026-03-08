@@ -1,7 +1,7 @@
 package net;
 
 import core.ClientMain;
-import enum.PacketDirection;
+import enums.PacketDirection;
 import event.PacketEvent;
 import io.netty.channel.ChannelHandlerContext;
 import module.Module;
@@ -82,3 +82,4 @@ public class CustomClientConnection extends ClientConnection {
       this.channelRead0(channelhandlercontext, (Packet<?>)object);
    }
 }
+

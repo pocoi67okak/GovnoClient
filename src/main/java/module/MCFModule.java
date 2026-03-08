@@ -2,7 +2,7 @@ package module;
 
 import command.FriendCommand;
 import core.FriendManager;
-import enum.Category;
+import enums.Category;
 import event.ChatMessageEvent;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -45,3 +45,4 @@ public class MCFModule extends Module {
       }
    }
 }
+

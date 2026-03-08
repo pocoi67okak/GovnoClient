@@ -1,7 +1,7 @@
 package module;
 
 import data.ProjectileParams;
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
@@ -344,3 +344,4 @@ public class TrajectoriesModule extends Module {
       }
    }
 }
+

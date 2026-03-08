@@ -1,7 +1,7 @@
 package module;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import enum.Category;
+import enums.Category;
 import font.MSDFFont;
 import hook.GameRendererInitHook;
 import java.awt.Color;
@@ -434,3 +434,4 @@ public class TracersModule extends Module {
       }
    }
 }
+

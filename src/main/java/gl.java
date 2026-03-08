@@ -1,5 +1,5 @@
 import core.SoundManager;
-import enum.SoundType;
+import enums.SoundType;
 
 public class gl extends ii {
    public gl(float f, float f1, Runnable runnable) {
@@ -18,3 +18,4 @@ public class gl extends ii {
       }
    }
 }
+

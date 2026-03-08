@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -200,3 +200,4 @@ public class AutoHealthPotModule extends Module {
       this.agh = false;
    }
 }
+

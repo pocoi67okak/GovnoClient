@@ -1,7 +1,7 @@
 package module;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.Arrays;
 import java.util.List;
@@ -299,3 +299,4 @@ public class PlayerESPModule extends Module {
       matrixstack.pop();
    }
 }
+

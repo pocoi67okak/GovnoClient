@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.BooleanSetting;
 import setting.SliderSetting;
 
@@ -54,3 +54,4 @@ public class PlayerScalerModule extends Module {
       return this.sizeZSetting;
    }
 }
+

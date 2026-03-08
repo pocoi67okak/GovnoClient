@@ -1,6 +1,6 @@
 package event;
 
-import enum.PacketDirection;
+import enums.PacketDirection;
 import net.CustomClientConnection;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.network.packet.Packet;
@@ -54,3 +54,4 @@ public class PacketEvent {
       this.cancelled = flag;
    }
 }
+

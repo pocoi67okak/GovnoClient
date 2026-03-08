@@ -1,7 +1,7 @@
 package module;
 
-import enum.Category;
-import enum.PacketDirection;
+import enums.Category;
+import enums.PacketDirection;
 import event.PacketEvent;
 import java.util.Set;
 import net.minecraft.entity.player.PlayerPosition;
@@ -62,3 +62,4 @@ public class NoServerRotateModule extends Module {
    public void onDisable() {
    }
 }
+

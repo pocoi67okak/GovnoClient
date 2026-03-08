@@ -1,7 +1,7 @@
 package module;
 
 import data.TranslationResult;
-import enum.Category;
+import enums.Category;
 import java.lang.Character.UnicodeBlock;
 import java.util.List;
 import java.util.Map;
@@ -109,3 +109,4 @@ public class TranslatorModule extends Module {
       return this.languageSetting;
    }
 }
+

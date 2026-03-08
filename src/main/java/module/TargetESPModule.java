@@ -3,7 +3,7 @@ package module;
 import com.mojang.blaze3d.platform.GlStateManager.DstFactor;
 import com.mojang.blaze3d.platform.GlStateManager.SrcFactor;
 import com.mojang.blaze3d.systems.RenderSystem;
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.Collections;
 import java.util.HashMap;
@@ -415,3 +415,4 @@ public class TargetESPModule extends Module {
       return this.fadeStartSetting;
    }
 }
+

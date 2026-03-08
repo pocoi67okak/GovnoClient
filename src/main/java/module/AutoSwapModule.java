@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import event.MouseMoveEvent;
 import font.MSDFFont;
 import java.awt.Color;
@@ -947,3 +947,4 @@ public class AutoSwapModule extends Module {
       return this.aaz;
    }
 }
+

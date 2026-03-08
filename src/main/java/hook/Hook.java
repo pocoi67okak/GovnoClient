@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.MinecraftClient;
 
 public abstract class Hook {
@@ -19,3 +19,4 @@ public abstract class Hook {
       return this.type;
    }
 }
+

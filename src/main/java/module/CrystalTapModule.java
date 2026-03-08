@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.decoration.EndCrystalEntity;
@@ -81,3 +81,4 @@ public class CrystalTapModule extends Module {
    public void onDisable() {
    }
 }
+

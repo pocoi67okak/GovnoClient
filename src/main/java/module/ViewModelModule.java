@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.ActionSetting;
 import setting.BooleanSetting;
 import setting.SliderSetting;
@@ -156,3 +156,4 @@ public class ViewModelModule extends Module {
       return this.ahT;
    }
 }
+

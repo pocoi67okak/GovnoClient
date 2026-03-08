@@ -1,7 +1,7 @@
 package module;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import enum.Category;
+import enums.Category;
 import font.MSDFFont;
 import java.awt.Color;
 import java.util.ArrayList;
@@ -467,3 +467,4 @@ public class ItemESPModule extends Module {
       }
    }
 }
+

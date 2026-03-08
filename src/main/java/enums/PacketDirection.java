@@ -1,4 +1,4 @@
-package enum;
+package enums;
 
 public enum PacketDirection {
    SEND,
@@ -13,3 +13,4 @@ public enum PacketDirection {
       return new PacketDirection[]{SEND, RECEIVE};
    }
 }
+

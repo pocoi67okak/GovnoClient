@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.Entity.RemovalReason;
 import net.minecraft.entity.player.PlayerEntity;
@@ -105,3 +105,4 @@ public class FreeCamModule extends Module {
       }
    }
 }
+

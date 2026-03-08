@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.render.item.HeldItemRenderer;
 import render.CustomGameRenderer;
 import render.CustomHeldItemRenderer;
@@ -21,3 +21,4 @@ public class HeldItemRendererHook extends Hook {
    public void unHook() {
    }
 }
+

@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.client.gui.screen.DeathScreen;
 import net.minecraft.entity.player.PlayerEntity;
 import setting.BooleanSetting;
@@ -114,3 +114,4 @@ public class AutoRespawnModule extends Module {
       this.h();
    }
 }
+

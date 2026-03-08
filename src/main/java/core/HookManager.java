@@ -1,6 +1,6 @@
 package core;
 
-import enum.HookType;
+import enums.HookType;
 import hook.BossBarHudHook;
 import hook.CameraHook;
 import hook.ChatHudHook;
@@ -66,3 +66,4 @@ public class HookManager {
       this.hooks.forEach(Hook::unHook);
    }
 }
+

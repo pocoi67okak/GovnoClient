@@ -1,6 +1,6 @@
 package hud;
 
-import enum.ConstraintSide;
+import enums.ConstraintSide;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
@@ -89,3 +89,4 @@ public class HudConstraint {
       return this.hl;
    }
 }
+

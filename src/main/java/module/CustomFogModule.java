@@ -1,7 +1,7 @@
 package module;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderContext;
 import net.minecraft.client.render.Fog;
@@ -177,3 +177,4 @@ public class CustomFogModule extends Module {
       return this.fogDensitySetting;
    }
 }
+

@@ -1,4 +1,4 @@
-package enum;
+package enums;
 
 public enum ConstraintSide {
    KC,
@@ -15,3 +15,4 @@ public enum ConstraintSide {
       return new ConstraintSide[]{KC, Kq, tO, uN};
    }
 }
+

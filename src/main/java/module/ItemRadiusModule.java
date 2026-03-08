@@ -3,7 +3,7 @@ package module;
 import com.mojang.blaze3d.systems.RenderSystem;
 import data.PlanePose;
 import data.RenderData;
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderContext;
 import net.minecraft.client.gl.ShaderProgramKeys;
@@ -435,3 +435,4 @@ public class ItemRadiusModule extends Module {
       return f + f3 * f2;
    }
 }
+

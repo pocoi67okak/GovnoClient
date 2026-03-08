@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.util.List;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.text.Text;
@@ -140,3 +140,4 @@ public class AutoLeaveModule extends Module {
       this.Pd = false;
    }
 }
+

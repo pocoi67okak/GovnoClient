@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.hud.PlayerListHud;
 import render.CustomInGameHud;
@@ -23,3 +23,4 @@ public class PlayerListHudHook extends Hook {
    public void unHook() {
    }
 }
+

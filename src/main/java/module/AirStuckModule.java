@@ -1,7 +1,7 @@
 package module;
 
-import enum.Category;
-import enum.PacketDirection;
+import enums.Category;
+import enums.PacketDirection;
 import event.PacketEvent;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -93,3 +93,4 @@ public class AirStuckModule extends Module {
       return instance;
    }
 }
+

@@ -1,4 +1,4 @@
-import enum.Category;
+import enums.Category;
 import font.MSDFFont;
 import gui.InteractiveComponent;
 import java.util.ArrayList;
@@ -80,3 +80,4 @@ public class jsj {
       return q;
    }
 }
+

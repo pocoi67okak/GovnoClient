@@ -1,7 +1,7 @@
 package module;
 
 import core.FriendManager;
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -305,3 +305,4 @@ public class HitboxTweaksModule extends Module {
       return this.fadeStartSetting;
    }
 }
+

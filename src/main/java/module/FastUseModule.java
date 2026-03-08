@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.client.MinecraftClient;
 import util.UnsafeFieldAccessor;
 
@@ -28,3 +28,4 @@ public class FastUseModule extends Module {
       }
    }
 }
+

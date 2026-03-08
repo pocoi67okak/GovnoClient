@@ -1,7 +1,7 @@
 package module;
 
 import core.ClientMain;
-import enum.Category;
+import enums.Category;
 import net.minecraft.client.MinecraftClient;
 import setting.BooleanSetting;
 
@@ -52,3 +52,4 @@ public class ClickGuiModule extends Module {
       return this.blurCustomInventorySetting;
    }
 }
+

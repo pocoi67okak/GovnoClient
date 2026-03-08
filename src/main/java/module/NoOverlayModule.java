@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.entity.effect.StatusEffects;
 import setting.BooleanSetting;
 
@@ -64,3 +64,4 @@ public class NoOverlayModule extends Module {
    public void onDisable() {
    }
 }
+

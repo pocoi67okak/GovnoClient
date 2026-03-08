@@ -1,8 +1,8 @@
 package module;
 
 import core.FriendManager;
-import enum.Category;
-import enum.PacketDirection;
+import enums.Category;
+import enums.PacketDirection;
 import event.PacketEvent;
 import net.minecraft.network.packet.s2c.play.GameMessageS2CPacket;
 import net.minecraft.text.Text;
@@ -100,3 +100,4 @@ public class AutoAcceptModule extends Module {
       return false;
    }
 }
+

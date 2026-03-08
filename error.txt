@@ -1,0 +1,44 @@
+> Task :compileJava FAILED
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/uo.java:2: error: <identifier> expected
+   @Override
+            ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/uo.java:3: error: enum constant expected here
+   public float b(float f, float f1, float f2, float f3) {
+   ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/CustomClientConnection.java:4: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+import enum.PacketDirection;
+       ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/jx.java:2: error: <identifier> expected
+   @Override
+            ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/jx.java:3: error: enum constant expected here
+   public float b(float f, float f1, float f2, float f3) {
+   ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/mk.java:2: error: <identifier> expected
+   @Override
+            ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/mk.java:3: error: enum constant expected here
+   public float b(float f, float f1, float f2, float f3) {
+   ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/jec.java:2: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+import enum.Language;
+       ^
+       ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/AnchorTapModule.java:3: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+import enum.Category;
+       ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/AutoToolModule.java:3: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+import enum.Category;
+       ^
+100 errors
+only showing the first 100 errors, of 207 total; use -Xmaxerrs if you would like to see more
+FAILURE: Build failed with an exception.
+1 actionable task: 1 executed
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+BUILD FAILED in 51s
+Error: Process completed with exit code 1.

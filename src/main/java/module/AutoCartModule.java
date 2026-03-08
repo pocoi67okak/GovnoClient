@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.util.Arrays;
 import java.util.Collections;
 import net.minecraft.client.network.ClientPlayerInteractionManager;
@@ -662,3 +662,4 @@ public class AutoCartModule extends Module {
       this.atk = 0L;
    }
 }
+

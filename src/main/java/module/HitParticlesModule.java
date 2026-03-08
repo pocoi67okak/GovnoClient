@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -79,3 +79,4 @@ public class HitParticlesModule extends ParticleModule {
       mvy.a(this, vec3d, (int)this.countSetting.getValue(), this.spreadSetting.getFloatValue(), this.gravitySetting.getFloatValue());
    }
 }
+

@@ -3,7 +3,7 @@ package module;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.ProjectionType;
 import com.mojang.blaze3d.systems.RenderSystem;
-import enum.Category;
+import enums.Category;
 import event.UseItemEvent;
 import java.awt.Color;
 import java.util.List;
@@ -452,3 +452,4 @@ public class HandTweaksModule extends Module {
       return this.Pe;
    }
 }
+

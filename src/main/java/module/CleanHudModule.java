@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 
 public class CleanHudModule extends Module {
    public CleanHudModule() {
@@ -15,3 +15,4 @@ public class CleanHudModule extends Module {
    public void onDisable() {
    }
 }
+

@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents.StartTick;
 import net.minecraft.client.MinecraftClient;
@@ -163,3 +163,4 @@ public class ShieldBreakerModule extends Module implements StartTick {
       this.resetState();
    }
 }
+

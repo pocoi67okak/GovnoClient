@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -195,3 +195,4 @@ public class JumpParticlesModule extends ParticleModule {
       }
    }
 }
+

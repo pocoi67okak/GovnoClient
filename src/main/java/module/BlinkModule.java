@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 
 public class BlinkModule extends PacketModule {
    public BlinkModule() {
@@ -17,3 +17,4 @@ public class BlinkModule extends PacketModule {
    public void onEndTick() {
    }
 }
+

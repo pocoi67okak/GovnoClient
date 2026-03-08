@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.BooleanSetting;
 import setting.SliderSetting;
 
@@ -64,3 +64,4 @@ public class TabTweaksModule extends Module {
       return this.columnCountSetting;
    }
 }
+

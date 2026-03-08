@@ -3,7 +3,7 @@ package module;
 import com.mojang.blaze3d.systems.RenderSystem;
 import core.ClientMain;
 import data.ColoredText;
-import enum.Category;
+import enums.Category;
 import font.MSDFFont;
 import java.awt.Color;
 import java.util.ArrayList;
@@ -600,3 +600,4 @@ public class NameTagsModule extends Module {
       return this.healthBypassSetting;
    }
 }
+

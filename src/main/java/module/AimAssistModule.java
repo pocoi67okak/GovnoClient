@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
@@ -525,3 +525,4 @@ public class AimAssistModule extends Module {
       return xw.o(d0);
    }
 }
+

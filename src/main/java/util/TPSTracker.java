@@ -1,6 +1,6 @@
 package util;
 
-import enum.PacketDirection;
+import enums.PacketDirection;
 import event.PacketEvent;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -93,3 +93,4 @@ public class TPSTracker {
       }
    }
 }
+

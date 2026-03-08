@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.entity.LivingEntity;
 import util.UnsafeFieldAccessor;
 
@@ -28,3 +28,4 @@ public class NoJumpDelayModule extends Module {
       }
    }
 }
+

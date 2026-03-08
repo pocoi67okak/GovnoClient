@@ -1,6 +1,6 @@
 package hook;
 
-import enum.HookType;
+import enums.HookType;
 import net.minecraft.client.render.Camera;
 import render.CustomGameRenderer;
 import util.UnsafeFieldAccessor;
@@ -19,3 +19,4 @@ public class CameraHook extends Hook {
    public void unHook() {
    }
 }
+

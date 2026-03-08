@@ -1,7 +1,7 @@
 package module;
 
 import core.ClientMain;
-import enum.Category;
+import enums.Category;
 import java.util.Arrays;
 import java.util.Collections;
 import net.minecraft.client.util.math.MatrixStack;
@@ -122,3 +122,4 @@ public class SwingAnimationModule extends Module {
       this.wd = 0.0F;
    }
 }
+

@@ -1,4 +1,4 @@
-package enum;
+package enums;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -132,3 +132,4 @@ enum HeartType {
       return new HeartType[]{CONTAINER, NORMAL, POISONED, WITHERED, ABSORBING, FROZEN};
    }
 }
+

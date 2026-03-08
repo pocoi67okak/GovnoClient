@@ -1,8 +1,8 @@
 import core.ClientMain;
 import core.ModuleManager;
 import core.SoundManager;
-import enum.Category;
-import enum.SoundType;
+import enums.Category;
+import enums.SoundType;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -119,3 +119,4 @@ public class srr {
       this.Lk = runnable;
    }
 }
+

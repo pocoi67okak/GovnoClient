@@ -1,6 +1,6 @@
 package core;
 
-import enum.SoundType;
+import enums.SoundType;
 import java.io.ByteArrayInputStream;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -132,3 +132,4 @@ public class SoundManager {
       this.muted = flag;
    }
 }
+

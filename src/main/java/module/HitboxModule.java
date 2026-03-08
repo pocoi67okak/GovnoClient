@@ -2,7 +2,7 @@ package module;
 
 import core.ClientMain;
 import core.LicenseManager;
-import enum.Category;
+import enums.Category;
 import event.RotationEvent;
 import event.UseItemEvent;
 import java.util.Arrays;
@@ -1322,3 +1322,4 @@ public class HitboxModule extends Module {
       this.awL = f;
    }
 }
+

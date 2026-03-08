@@ -1,7 +1,7 @@
 package module;
 
 import core.ClientMain;
-import enum.Category;
+import enums.Category;
 
 public class NoPushModule extends Module {
    public NoPushModule() {
@@ -23,3 +23,4 @@ public class NoPushModule extends Module {
       }
    }
 }
+

@@ -2,7 +2,7 @@ package module;
 
 import core.ClientMain;
 import core.KeyBindManager;
-import enum.Category;
+import enums.Category;
 import setting.ActionKeySetting;
 import setting.BooleanSetting;
 import setting.FilePickerSetting;
@@ -116,3 +116,4 @@ public class PanicModule extends Module {
       return this.anh;
    }
 }
+

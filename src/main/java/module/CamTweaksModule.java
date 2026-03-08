@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.BooleanSetting;
 import setting.SliderSetting;
 
@@ -144,3 +144,4 @@ public class CamTweaksModule extends Module {
       return this.aeQ;
    }
 }
+

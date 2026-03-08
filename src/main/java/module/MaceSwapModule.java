@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import event.RotationEvent;
 import event.UseItemEvent;
 import net.minecraft.entity.player.PlayerInventory;
@@ -100,3 +100,4 @@ public class MaceSwapModule extends Module {
       }
    }
 }
+

@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import event.MouseMoveEvent;
 import setting.ActionKeySetting;
 import setting.BooleanSetting;
@@ -159,3 +159,4 @@ public class ZoomModule extends Module {
       return instance;
    }
 }
+

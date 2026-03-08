@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import net.minecraft.client.gui.screen.ingame.InventoryScreen;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;
@@ -172,3 +172,4 @@ public class KeyPearlModule extends Module {
       }
    }
 }
+

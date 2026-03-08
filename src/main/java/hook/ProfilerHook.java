@@ -2,7 +2,7 @@ package hook;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import core.ClientMain;
-import enum.HookType;
+import enums.HookType;
 import java.util.Queue;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.profiler.Profiler;
@@ -49,3 +49,4 @@ public class ProfilerHook extends Hook {
    public void unHook() {
    }
 }
+

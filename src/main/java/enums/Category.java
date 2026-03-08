@@ -1,4 +1,4 @@
-package enum;
+package enums;
 
 import core.Localization;
 
@@ -55,3 +55,4 @@ public enum Category {
       return new Category[]{COMBAT, MOVEMENT, PLAYER, RENDER, VISUAL, PARTICLES, CLIENT};
    }
 }
+

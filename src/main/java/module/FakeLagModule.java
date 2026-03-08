@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 
 public class FakeLagModule extends PacketModule {
    public FakeLagModule() {
@@ -13,3 +13,4 @@ public class FakeLagModule extends PacketModule {
       return true;
    }
 }
+

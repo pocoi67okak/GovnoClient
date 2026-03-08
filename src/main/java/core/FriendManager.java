@@ -1,7 +1,7 @@
 package core;
 
 import config.Config;
-import enum.SoundType;
+import enums.SoundType;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -101,3 +101,4 @@ public class FriendManager {
       return instance;
    }
 }
+

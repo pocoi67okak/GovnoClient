@@ -1,5 +1,5 @@
 import core.SoundManager;
-import enum.SoundType;
+import enums.SoundType;
 import gui.Component;
 import org.joml.Matrix4f;
 import render.BuiltRectangle;
@@ -82,3 +82,4 @@ public class em extends Component {
       return this.acB;
    }
 }
+

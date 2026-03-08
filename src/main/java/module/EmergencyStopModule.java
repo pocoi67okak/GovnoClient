@@ -1,6 +1,6 @@
 package module;
 
-import enum.Category;
+import enums.Category;
 import setting.ActionKeySetting;
 import setting.SliderSetting;
 
@@ -27,3 +27,4 @@ public class EmergencyStopModule extends Module {
    public void onDisable() {
    }
 }
+
