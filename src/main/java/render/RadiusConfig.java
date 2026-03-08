@@ -1,23 +1,6 @@
 package render;
 
-public record RadiusConfig(
-   float radius1,
-   float radius2,
-   float radius3,
-   float radius4,
-   float radius1,
-   float radius2,
-   float radius3,
-   float radius4,
-   float radius1,
-   float radius2,
-   float radius3,
-   float radius4,
-   float radius1,
-   float radius2,
-   float radius3,
-   float radius4
-) {
+public class RadiusConfig {
    private final float Xq;
    private final float aou;
    private final float aoY;

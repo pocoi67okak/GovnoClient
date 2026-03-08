@@ -20,7 +20,7 @@ public class CustomFogModule extends Module {
    private boolean Ud = false;
    private static final long Ap = 800L;
    private static float Fv = 0.0F;
-   private static float if = 800.0F;
+   private static float ifCounter = 800.0F;
    private static float VG = 0.753F;
    private static float adF = 0.847F;
    private static float aui = 1.0F;
@@ -38,7 +38,7 @@ public class CustomFogModule extends Module {
    @Override
    public void onEnable() {
       this.Gd = Fv;
-      this.rm = if;
+      this.rm = ifCounter;
       Color color = this.fogColorSetting.getColor();
       this.anE = color.getRed() / 255.0F;
       this.Ek = color.getGreen() / 255.0F;
@@ -129,7 +129,7 @@ public class CustomFogModule extends Module {
                f4 = this.b(this.YZ, color.getBlue() / 255.0F, f7);
             } else {
                f = this.b(this.Gd, Fv, f7);
-               f1 = this.b(this.rm, if, f7);
+               f1 = this.b(this.rm, ifCounter, f7);
                f2 = this.b(this.anE, VG, f7);
                f3 = this.b(this.Ek, adF, f7);
                f4 = this.b(this.YZ, aui, f7);

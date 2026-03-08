@@ -10,7 +10,7 @@ public class e {
    private String message;
    private String status;
    private Map<String, Object> data;
-   private static String[] 6LJqjdNWUIWRnFRF = new String[7];
+   private static String[] _6LJqjdNWUIWRnFRF = new String[7];
 
    public e(boolean flag, String s, String s1) {
       this.success = flag;

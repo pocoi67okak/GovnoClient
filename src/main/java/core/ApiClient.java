@@ -8,7 +8,7 @@ public abstract class ApiClient {
    protected String host;
    protected int port;
    protected Gson gson = new Gson();
-   private static String[] 4dSoclJj4mePJqzv = new String[1];
+   private static String[] _4dSoclJj4mePJqzv = new String[1];
 
    protected ApiClient(String s, int i) {
       this.host = s;

@@ -1,6 +1,6 @@
 package render;
 
-public record Size(float width, float height, float width, float height, float width, float height, float width, float height) {
+public class Size {
    private final float jI;
    private final float YH;
    public static final Size kb = new Size(0.0F, 0.0F);

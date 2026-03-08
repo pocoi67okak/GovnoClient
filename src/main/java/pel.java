@@ -1,27 +1,10 @@
-record pel(
-   int effectiveHover,
-   int flashIndex,
-   float flashProgress,
-   boolean isDelete,
-   int effectiveHover,
-   int flashIndex,
-   float flashProgress,
-   boolean isDelete,
-   int effectiveHover,
-   int flashIndex,
-   float flashProgress,
-   boolean isDelete,
-   int effectiveHover,
-   int flashIndex,
-   float flashProgress,
-   boolean isDelete
-) {
+class pel {
    private final int axf;
    private final int PS;
    private final float Oi;
    private final boolean Tf;
 
-   private pel(int i, int j, float f, boolean flag) {
+   pel(int i, int j, float f, boolean flag) {
       this.axf = i;
       this.PS = j;
       this.Oi = f;

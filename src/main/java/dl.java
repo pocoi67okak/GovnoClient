@@ -1,35 +1,6 @@
 import dev.mark.system.render.gui.common.base.GridConfig.LayoutMode;
 
-public record dl(
-   float cardWidth,
-   float cardHeight,
-   int cardsPerRow,
-   float horizontalSpacing,
-   float verticalSpacing,
-   float scrollSpeed,
-   LayoutMode layoutMode,
-   float cardWidth,
-   float cardHeight,
-   int cardsPerRow,
-   float horizontalSpacing,
-   float verticalSpacing,
-   float scrollSpeed,
-   hef layoutMode,
-   float cardWidth,
-   float cardHeight,
-   int cardsPerRow,
-   float horizontalSpacing,
-   float verticalSpacing,
-   float scrollSpeed,
-   LayoutMode layoutMode,
-   float cardWidth,
-   float cardHeight,
-   int cardsPerRow,
-   float horizontalSpacing,
-   float verticalSpacing,
-   float scrollSpeed,
-   hef layoutMode
-) {
+public class dl {
    private final float aya;
    private final float am;
    private final int fj;

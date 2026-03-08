@@ -2,24 +2,7 @@ package render;
 
 import java.awt.Color;
 
-public record ColorPair(
-   int color1,
-   int color2,
-   int color3,
-   int color4,
-   int color1,
-   int color2,
-   int color3,
-   int color4,
-   int color1,
-   int color2,
-   int color3,
-   int color4,
-   int color1,
-   int color2,
-   int color3,
-   int color4
-) {
+public class ColorPair {
    private final int Iy;
    private final int ft;
    private final int ib;

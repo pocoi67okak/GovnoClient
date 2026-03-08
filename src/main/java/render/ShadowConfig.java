@@ -2,28 +2,7 @@ package render;
 
 import java.awt.Color;
 
-public record ShadowConfig(
-   float offsetX,
-   float offsetY,
-   float blur,
-   int color,
-   boolean enabled,
-   float offsetX,
-   float offsetY,
-   float blur,
-   int color,
-   boolean enabled,
-   float offsetX,
-   float offsetY,
-   float blur,
-   int color,
-   boolean enabled,
-   float offsetX,
-   float offsetY,
-   float blur,
-   int color,
-   boolean enabled
-) {
+public class ShadowConfig {
    private final float aqk;
    private final float aaH;
    private final float Gg;

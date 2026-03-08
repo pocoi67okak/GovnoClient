@@ -1,44 +1,170 @@
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:28: error: field declaration must be static
+   private final String eO;
+> Task :compileJava
+                        ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:29: error: field declaration must be static
+   private final gui.Component anL;
+                               ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:30: error: field declaration must be static
+   private final float rl;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:31: error: field declaration must be static
+   private final x WK;
+                   ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:32: error: field declaration must be static
+   private final Setting ara;
+                         ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:21: error: field declaration must be static
+   private final float Xq;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:22: error: field declaration must be static
+   private final float aou;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:23: error: field declaration must be static
+   private final float aoY;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:24: error: field declaration must be static
+   private final float adZ;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/Size.java:4: error: field declaration must be static
+   private final float jI;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/Size.java:5: error: field declaration must be static
+   private final float YH;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:23: error: field declaration must be static
+   private final int Iy;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:24: error: field declaration must be static
+   private final int ft;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:25: error: field declaration must be static
+   private final int ib;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:26: error: field declaration must be static
+   private final int afx;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:27: error: field declaration must be static
+   private final float aqk;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:28: error: field declaration must be static
+   private final float aaH;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:29: error: field declaration must be static
+   private final float Gg;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:30: error: field declaration must be static
+   private final int el;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:31: error: field declaration must be static
+   private final boolean HL;
+                         ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:33: error: field declaration must be static
+   private final float aya;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:34: error: field declaration must be static
+   private final float am;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:35: error: field declaration must be static
+   private final int fj;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:36: error: field declaration must be static
+   private final float gP;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:37: error: field declaration must be static
+   private final float yt;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:38: error: field declaration must be static
+   private final float Pb;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:39: error: field declaration must be static
+   private final hef aeJ;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:19: error: field declaration must be static
+   private final int axf;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:20: error: field declaration must be static
+   private final int PS;
+                     ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:21: error: field declaration must be static
+   private final float Oi;
+                       ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:22: error: field declaration must be static
+   private final boolean Tf;
+                         ^
+  (consider replacing field with record component)
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:23: error: <identifier> expected
+   private static float if = 800.0F;
+                       ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:41: error: illegal start of expression
+      this.rm = if;
+                ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:41: error: '(' expected
+      this.rm = if;
+                  ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: illegal start of expression
+               f1 = this.b(this.rm, if, f7);
+                                    ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: '(' expected
+               f1 = this.b(this.rm, if, f7);
+                                      ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: not a statement
+               f1 = this.b(this.rm, if, f7);
+                                        ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: ';' expected
+               f1 = this.b(this.rm, if, f7);
+                                          ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/e.java:13: error: <identifier> expected
+   private static String[] 6LJqjdNWUIWRnFRF = new String[7];
+                          ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/e.java:13: error: <identifier> expected
+   private static String[] 6LJqjdNWUIWRnFRF = new String[7];
+                                           ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/core/ApiClient.java:11: error: <identifier> expected
+   private static String[] 4dSoclJj4mePJqzv = new String[1];
+                          ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/core/ApiClient.java:11: error: <identifier> expected
+   private static String[] 4dSoclJj4mePJqzv = new String[1];
+                                           ^
+42 errors
 > Task :compileJava FAILED
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/uo.java:2: error: <identifier> expected
-   @Override
-            ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/uo.java:3: error: enum constant expected here
-   public float b(float f, float f1, float f2, float f3) {
-   ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/CustomClientConnection.java:4: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
-import enum.PacketDirection;
-       ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/jx.java:2: error: <identifier> expected
-   @Override
-            ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/jx.java:3: error: enum constant expected here
-   public float b(float f, float f1, float f2, float f3) {
-   ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/mk.java:2: error: <identifier> expected
-   @Override
-            ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/mk.java:3: error: enum constant expected here
-   public float b(float f, float f1, float f2, float f3) {
-   ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/jec.java:2: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
-import enum.Language;
-       ^
-       ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/AnchorTapModule.java:3: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
-import enum.Category;
-       ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/AutoToolModule.java:3: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
-import enum.Category;
-       ^
-100 errors
-only showing the first 100 errors, of 207 total; use -Xmaxerrs if you would like to see more
-FAILURE: Build failed with an exception.
 1 actionable task: 1 executed
+FAILURE: Build failed with an exception.
 * What went wrong:
 Execution failed for task ':compileJava'.
 > Compilation failed; see the compiler error output for details.
 * Try:
 > Run with --info option to get more log output.
 > Run with --scan to get full insights.
-BUILD FAILED in 51s
+BUILD FAILED in 46s
 Error: Process completed with exit code 1.
