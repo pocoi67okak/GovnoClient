@@ -1,19 +1,6 @@
 package data;
 
-public record TranslationResult(
-   String text,
-   String detectedLanguage,
-   String targetLanguage,
-   String text,
-   String detectedLanguage,
-   String targetLanguage,
-   String text,
-   String detectedLanguage,
-   String targetLanguage,
-   String text,
-   String detectedLanguage,
-   String targetLanguage
-) {
+public record TranslationResult(String text, String detectedLanguage, String targetLanguage) {
    public TranslationResult(String s, String s1, String s2) {
       this.text = s;
       this.detectedLanguage = s1;

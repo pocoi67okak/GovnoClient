@@ -55,9 +55,9 @@ import org.joml.Vector4f;
 import util.UnsafeFieldAccessor;
 
 public class CustomWorldRenderer extends WorldRenderer {
-   private static final Identifier ENTITY_OUTLINE = Identifier.ofVanilla("entity_outline");
-   private static final Identifier CUSTOM_ENTITY_OUTLINE = Identifier.ofVanilla("custom_entity_outline");
-   private static final Identifier TRANSPARENCY = Identifier.ofVanilla("transparency");
+   private static final Identifier ENTITY_OUTLINE = new Identifier("entity_outline");
+   private static final Identifier CUSTOM_ENTITY_OUTLINE = new Identifier("custom_entity_outline");
+   private static final Identifier TRANSPARENCY = new Identifier("transparency");
    private final MinecraftClient client;
    private UnsafeFieldAccessor<Frustum> frustumField;
    private UnsafeFieldAccessor<Frustum> capturedFrustumField;

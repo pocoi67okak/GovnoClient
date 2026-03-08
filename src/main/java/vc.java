@@ -23,7 +23,7 @@ import org.jetbrains.annotations.Nullable;
 import org.joml.Matrix4f;
 
 public class vc {
-   private static final Identifier UNDERWATER_TEXTURE = Identifier.ofVanilla("textures/misc/underwater.png");
+   private static final Identifier UNDERWATER_TEXTURE = new Identifier("textures/misc/underwater.png");
 
    public static void renderOverlays(MinecraftClient minecraftclient, MatrixStack matrixstack, VertexConsumerProvider vertexconsumerprovider) {
       ClientPlayerEntity clientplayerentity = minecraftclient.player;

@@ -17,7 +17,7 @@ public final class ShaderUtil {
    private static final ResourceManager apH = MinecraftClient.getInstance().getResourceManager();
 
    public static ShaderProgramKey a(String s, VertexFormat vertexformat, Defines defines) {
-      return new ShaderProgramKey(Identifier.ofVanilla("core/" + s), vertexformat, defines);
+      return new ShaderProgramKey(new Identifier("core/" + s), vertexformat, defines);
    }
 
    public static <T> T b(String s, Class<T> oclass) {

@@ -45,20 +45,20 @@ import org.jetbrains.annotations.Nullable;
 
 @Environment(EnvType.CLIENT)
 public class CustomPlayerListHud extends PlayerListHud {
-   private static final Identifier PING_UNKNOWN_ICON_TEXTURE = Identifier.ofVanilla("icon/ping_unknown");
-   private static final Identifier PING_1_ICON_TEXTURE = Identifier.ofVanilla("icon/ping_1");
-   private static final Identifier PING_2_ICON_TEXTURE = Identifier.ofVanilla("icon/ping_2");
-   private static final Identifier PING_3_ICON_TEXTURE = Identifier.ofVanilla("icon/ping_3");
-   private static final Identifier PING_4_ICON_TEXTURE = Identifier.ofVanilla("icon/ping_4");
-   private static final Identifier PING_5_ICON_TEXTURE = Identifier.ofVanilla("icon/ping_5");
-   private static final Identifier CONTAINER_HEART_BLINKING_TEXTURE = Identifier.ofVanilla("hud/heart/container_blinking");
-   private static final Identifier CONTAINER_HEART_TEXTURE = Identifier.ofVanilla("hud/heart/container");
-   private static final Identifier FULL_HEART_BLINKING_TEXTURE = Identifier.ofVanilla("hud/heart/full_blinking");
-   private static final Identifier HALF_HEART_BLINKING_TEXTURE = Identifier.ofVanilla("hud/heart/half_blinking");
-   private static final Identifier ABSORBING_FULL_HEART_BLINKING_TEXTURE = Identifier.ofVanilla("hud/heart/absorbing_full_blinking");
-   private static final Identifier FULL_HEART_TEXTURE = Identifier.ofVanilla("hud/heart/full");
-   private static final Identifier ABSORBING_HALF_HEART_BLINKING_TEXTURE = Identifier.ofVanilla("hud/heart/absorbing_half_blinking");
-   private static final Identifier HALF_HEART_TEXTURE = Identifier.ofVanilla("hud/heart/half");
+   private static final Identifier PING_UNKNOWN_ICON_TEXTURE = new Identifier("icon/ping_unknown");
+   private static final Identifier PING_1_ICON_TEXTURE = new Identifier("icon/ping_1");
+   private static final Identifier PING_2_ICON_TEXTURE = new Identifier("icon/ping_2");
+   private static final Identifier PING_3_ICON_TEXTURE = new Identifier("icon/ping_3");
+   private static final Identifier PING_4_ICON_TEXTURE = new Identifier("icon/ping_4");
+   private static final Identifier PING_5_ICON_TEXTURE = new Identifier("icon/ping_5");
+   private static final Identifier CONTAINER_HEART_BLINKING_TEXTURE = new Identifier("hud/heart/container_blinking");
+   private static final Identifier CONTAINER_HEART_TEXTURE = new Identifier("hud/heart/container");
+   private static final Identifier FULL_HEART_BLINKING_TEXTURE = new Identifier("hud/heart/full_blinking");
+   private static final Identifier HALF_HEART_BLINKING_TEXTURE = new Identifier("hud/heart/half_blinking");
+   private static final Identifier ABSORBING_FULL_HEART_BLINKING_TEXTURE = new Identifier("hud/heart/absorbing_full_blinking");
+   private static final Identifier FULL_HEART_TEXTURE = new Identifier("hud/heart/full");
+   private static final Identifier ABSORBING_HALF_HEART_BLINKING_TEXTURE = new Identifier("hud/heart/absorbing_half_blinking");
+   private static final Identifier HALF_HEART_TEXTURE = new Identifier("hud/heart/half");
    private static final Comparator<PlayerListEntry> ENTRY_ORDERING = Comparator.<PlayerListEntry>comparingInt(playerlistentry -> {
       return -playerlistentry.getListOrder();
    }).thenComparingInt(playerlistentry -> {

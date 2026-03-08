@@ -10,7 +10,7 @@ public class ShaderResource {
    private final byte[] buffer;
 
    public ShaderResource(String s, byte[] abyte) {
-      this.location = Identifier.ofVanilla(s);
+      this.location = new Identifier(s);
       this.buffer = abyte;
    }
 

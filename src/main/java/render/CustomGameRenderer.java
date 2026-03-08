@@ -80,7 +80,7 @@ import org.joml.Vector3f;
 import org.slf4j.Logger;
 
 public class CustomGameRenderer extends GameRenderer {
-   private static final Identifier field_53899 = Identifier.ofVanilla("blur");
+   private static final Identifier field_53899 = new Identifier("blur");
    public static final int field_49904 = 10;
    private static final Logger LOGGER = LogUtils.getLogger();
    private static final boolean field_32688 = false;
@@ -173,12 +173,12 @@ public class CustomGameRenderer extends GameRenderer {
    public void onCameraEntitySet(@Nullable Entity entity) {
       this.postProcessorId = null;
       if (entity instanceof CreeperEntity) {
-         this.setPostProcessor(Identifier.ofVanilla("creeper"));
+         this.setPostProcessor(new Identifier("creeper"));
       } else if (entity instanceof SpiderEntity) {
-         this.setPostProcessor(Identifier.ofVanilla("spider"));
+         this.setPostProcessor(new Identifier("spider"));
       } else {
          if (entity instanceof EndermanEntity) {
-            this.setPostProcessor(Identifier.ofVanilla("invert"));
+            this.setPostProcessor(new Identifier("invert"));
          }
       }
    }
@@ -191,7 +191,7 @@ public class CustomGameRenderer extends GameRenderer {
    public void renderBlur() {
       float f = this.client.options.getMenuBackgroundBlurrinessValue();
       if (!(f < 1.0F)) {
-         PostEffectProcessor posteffectprocessor = this.client.getShaderLoader().loadPostEffect(field_53899, DefaultFramebufferSet.MAIN_ONLY);
+         PostEffectProcessor posteffectprocessor = ShaderLoader.get(this.client).loadPostEffect(field_53899, DefaultFramebufferSet.MAIN_ONLY);
          if (posteffectprocessor != null) {
             posteffectprocessor.setUniforms("Radius", f);
             posteffectprocessor.render(this.client.getFramebuffer(), this.pool);
@@ -201,8 +201,7 @@ public class CustomGameRenderer extends GameRenderer {
 
    public void preloadPrograms(ResourceFactory resourcefactory) {
       try {
-         this.client
-            .getShaderLoader()
+         ShaderLoader.get(this.client)
             .preload(
                resourcefactory,
                new ShaderProgramKey[]{ShaderProgramKeys.RENDERTYPE_GUI, ShaderProgramKeys.RENDERTYPE_GUI_OVERLAY, ShaderProgramKeys.POSITION_TEX_COLOR}
@@ -500,7 +499,7 @@ public class CustomGameRenderer extends GameRenderer {
                RenderSystem.disableBlend();
                RenderSystem.disableDepthTest();
                RenderSystem.resetTextureMatrix();
-               PostEffectProcessor posteffectprocessor = this.client.getShaderLoader().loadPostEffect(this.postProcessorId, DefaultFramebufferSet.MAIN_ONLY);
+               PostEffectProcessor posteffectprocessor = ShaderLoader.get(this.client).loadPostEffect(this.postProcessorId, DefaultFramebufferSet.MAIN_ONLY);
                if (posteffectprocessor != null) {
                   posteffectprocessor.render(this.client.getFramebuffer(), this.pool);
                }

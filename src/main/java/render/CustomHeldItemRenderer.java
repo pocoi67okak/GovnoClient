@@ -44,8 +44,8 @@ import org.joml.Matrix4f;
 
 @Environment(EnvType.CLIENT)
 public class CustomHeldItemRenderer extends HeldItemRenderer {
-   private static final RenderLayer MAP_BACKGROUND = RenderLayer.getText(Identifier.ofVanilla("textures/map/map_background.png"));
-   private static final RenderLayer MAP_BACKGROUND_CHECKERBOARD = RenderLayer.getText(Identifier.ofVanilla("textures/map/map_background_checkerboard.png"));
+   private static final RenderLayer MAP_BACKGROUND = RenderLayer.getText(new Identifier("textures/map/map_background.png"));
+   private static final RenderLayer MAP_BACKGROUND_CHECKERBOARD = RenderLayer.getText(new Identifier("textures/map/map_background_checkerboard.png"));
    private static final float field_32735 = -0.4F;
    private static final float field_32736 = 0.2F;
    private static final float field_32737 = -0.2F;

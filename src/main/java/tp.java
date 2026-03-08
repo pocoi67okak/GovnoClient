@@ -4,24 +4,7 @@ import net.minecraft.text.Text;
 import org.jetbrains.annotations.Nullable;
 
 @Environment(EnvType.CLIENT)
-record tp(
-   Text name,
-   int score,
-   @Nullable Text formattedScore,
-   int scoreWidth,
-   Text name,
-   int score,
-   @Nullable Text formattedScore,
-   int scoreWidth,
-   Text name,
-   int score,
-   @Nullable Text formattedScore,
-   int scoreWidth,
-   Text name,
-   int score,
-   @Nullable Text formattedScore,
-   int scoreWidth
-) {
+record tp(Text name, int score, @Nullable Text formattedScore, int scoreWidth) {
    tp(Text text, int i, @Nullable Text text1, int j) {
       this.name = text;
       this.score = i;

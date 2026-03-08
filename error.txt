@@ -1,162 +1,60 @@
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:28: error: field declaration must be static
-   private final String eO;
-> Task :compileJava
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/xih.java:1: error: package a does not exist
+import a.Loader;
+        ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/Module.java:25: error: package net.fabricmc.fabric.api.client.rendering.v1 does not exist
+import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderContext;
+                                                  ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/zl.java:3: error: cannot find symbol
+import net.minecraft.client.gl.Defines;
+                              ^
+  symbol:   class Defines
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/zl.java:5: error: cannot find symbol
+import net.minecraft.client.gl.ShaderProgramKey;
+                              ^
+  symbol:   class ShaderProgramKey
+  location: package net.minecraft.client.gl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/zl.java:15: error: cannot find symbol
+   private static final ShaderProgramKey avz = ShaderUtil.a("white_rectangle", VertexFormats.POSITION_COLOR, Defines.EMPTY);
                         ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:29: error: field declaration must be static
-   private final gui.Component anL;
-                               ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:30: error: field declaration must be static
-   private final float rl;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:31: error: field declaration must be static
-   private final x WK;
+  symbol:   class ShaderProgramKey
+  location: class zl
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/BuiltBlur.java:8: error: cannot find symbol
+> Task :compileJava
+import net.minecraft.client.gl.Defines;
+                              ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method x() is already defined in record Rect
+record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
+            ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method y() is already defined in record Rect
+record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
                    ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/kjx.java:32: error: field declaration must be static
-   private final Setting ara;
-                         ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:21: error: field declaration must be static
-   private final float Xq;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:22: error: field declaration must be static
-   private final float aou;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:23: error: field declaration must be static
-   private final float aoY;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/RadiusConfig.java:24: error: field declaration must be static
-   private final float adZ;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/Size.java:4: error: field declaration must be static
-   private final float jI;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/Size.java:5: error: field declaration must be static
-   private final float YH;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:23: error: field declaration must be static
-   private final int Iy;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:24: error: field declaration must be static
-   private final int ft;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:25: error: field declaration must be static
-   private final int ib;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ColorPair.java:26: error: field declaration must be static
-   private final int afx;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:27: error: field declaration must be static
-   private final float aqk;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:28: error: field declaration must be static
-   private final float aaH;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:29: error: field declaration must be static
-   private final float Gg;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:30: error: field declaration must be static
-   private final int el;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/render/ShadowConfig.java:31: error: field declaration must be static
-   private final boolean HL;
-                         ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:33: error: field declaration must be static
-   private final float aya;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:34: error: field declaration must be static
-   private final float am;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:35: error: field declaration must be static
-   private final int fj;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:36: error: field declaration must be static
-   private final float gP;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:37: error: field declaration must be static
-   private final float yt;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:38: error: field declaration must be static
-   private final float Pb;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/dl.java:39: error: field declaration must be static
-   private final hef aeJ;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:19: error: field declaration must be static
-   private final int axf;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:20: error: field declaration must be static
-   private final int PS;
-                     ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:21: error: field declaration must be static
-   private final float Oi;
-                       ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/pel.java:22: error: field declaration must be static
-   private final boolean Tf;
-                         ^
-  (consider replacing field with record component)
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:23: error: <identifier> expected
-   private static float if = 800.0F;
-                       ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:41: error: illegal start of expression
-      this.rm = if;
-                ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:41: error: '(' expected
-      this.rm = if;
-                  ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: illegal start of expression
-               f1 = this.b(this.rm, if, f7);
-                                    ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: '(' expected
-               f1 = this.b(this.rm, if, f7);
-                                      ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: not a statement
-               f1 = this.b(this.rm, if, f7);
-                                        ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/module/CustomFogModule.java:132: error: ';' expected
-               f1 = this.b(this.rm, if, f7);
-                                          ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/e.java:13: error: <identifier> expected
-   private static String[] 6LJqjdNWUIWRnFRF = new String[7];
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method width() is already defined in record Rect
+record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
                           ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/e.java:13: error: <identifier> expected
-   private static String[] 6LJqjdNWUIWRnFRF = new String[7];
-                                           ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/core/ApiClient.java:11: error: <identifier> expected
-   private static String[] 4dSoclJj4mePJqzv = new String[1];
-                          ^
-/home/runner/work/GovnoClient/GovnoClient/src/main/java/core/ApiClient.java:11: error: <identifier> expected
-   private static String[] 4dSoclJj4mePJqzv = new String[1];
-                                           ^
-42 errors
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/Rect.java:3: error: method height() is already defined in record Rect
+record Rect(int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height, int x, int y, int width, int height) {
+                                     ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/TranslationClient.java:3: error: package b does not exist
+import b.Native;
+        ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/net/TranslationClient.java:14: error: cannot find symbol
+@Native
+ ^
+  symbol: class Native
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/TranslationResult.java:7: error: record component text is already defined in record TranslationResult
+   String text,
+          ^
+/home/runner/work/GovnoClient/GovnoClient/src/main/java/data/TranslationResult.java:8: error: record component detectedLanguage is already defined in record TranslationResult
+   String detectedLanguage,
+          ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+only showing the first 100 errors, of 2456 total; use -Xmaxerrs if you would like to see more
 > Task :compileJava FAILED
 1 actionable task: 1 executed
 FAILURE: Build failed with an exception.
@@ -166,5 +64,5 @@ Execution failed for task ':compileJava'.
 * Try:
 > Run with --info option to get more log output.
 > Run with --scan to get full insights.
-BUILD FAILED in 46s
+BUILD FAILED in 1m 6s
 Error: Process completed with exit code 1.

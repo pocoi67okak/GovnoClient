@@ -79,7 +79,7 @@ public class CustomEntityRenderDispatcher extends EntityRenderDispatcher {
          return new CustomPlayerEntityRenderer(context, true);
       }
    );
-   private static final RenderLayer SHADOW_LAYER = RenderLayer.getEntityShadow(Identifier.ofVanilla("textures/misc/shadow.png"));
+   private static final RenderLayer SHADOW_LAYER = RenderLayer.getEntityShadow(new Identifier("textures/misc/shadow.png"));
    private Map<Model, EntityRenderer<? extends PlayerEntity, ?>> modelRenderers = Map.<Model, EntityRenderer<? extends PlayerEntity, ?>>of();
    private final ItemModelManager itemModelManager;
    private final MapRenderer mapRenderer;

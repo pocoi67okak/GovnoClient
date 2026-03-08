@@ -80,7 +80,7 @@ public class we extends ReloadableResourceManagerImpl {
       LinkedHashMap linkedhashmap = new LinkedHashMap(this.activeManager.findResources(s, predicate));
       this.resourceCache.keySet().forEach(s2 -> {
          if (s2.startsWith(s)) {
-            linkedhashmap.put(Identifier.ofVanilla(s2), this.resourceCache.get(s2).toResource());
+            linkedhashmap.put(new Identifier(s2), this.resourceCache.get(s2).toResource());
          }
       });
       return linkedhashmap;

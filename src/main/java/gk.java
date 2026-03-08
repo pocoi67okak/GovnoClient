@@ -62,8 +62,8 @@ public class gk implements WorldRenderContext {
       return this.worldRenderer;
    }
 
-   public RenderTickCounter tickCounter() {
-      return this.tickCounter;
+   public float tickDelta() {
+      return this.tickCounter.getTickDelta(false);
    }
 
    public boolean blockOutlines() {
@@ -107,9 +107,5 @@ public class gk implements WorldRenderContext {
    @Nullable
    public MatrixStack matrixStack() {
       return this.matrixStack;
-   }
-
-   public boolean translucentBlockOutline() {
-      return false;
    }
 }
